@@ -51,3 +51,10 @@ properties:
 - vim 7.4
 - wget 1.18
 - zip 3.0
+
+- java 1.8
+- node
+- maven
+- docker
+- fly
+- ruby
