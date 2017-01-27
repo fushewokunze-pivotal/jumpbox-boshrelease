@@ -1,0 +1,20 @@
+set -ex
+
+mkdir ${BOSH_INSTALL_TARGET}/bin
+cp bosh/bosh-cli-0.0.147-linux-amd64 ${BOSH_INSTALL_TARGET}/bin/bosh
+
+
+# https://github.com/cloudfoundry-community/traveling-bosh
+# Extract Bosh cli
+echo "Extracting Bosh ..."
+tar xzvf ${BOSH_COMPILE_TARGET}/bosh/bosh_cli-1.2809.0-linux-x86_64.tar.gz
+if [[ $? != 0 ]] ; then
+  echo "Failed extracting Bosh CLI"
+  exit 1
+fi
+
+cd ${BOSH_COMPILE_TARGET}/bosh_cli-1.2809.0-linux-x86_64
+
+cp bosh ${BOSH_INSTALL_TARGET}/bin/bosh-v1
+
+chmod +x ${BOSH_INSTALL_TARGET}/bin/*

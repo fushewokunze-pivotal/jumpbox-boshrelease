@@ -1,6 +1,6 @@
 ---
 blobstore:
-  provider: s3
+  provider: local
   options:
-    bucket_name: jumpbox-boshrelease
+    blobstore_path: "/tmp/blobstore"
 final_name: jumpbox

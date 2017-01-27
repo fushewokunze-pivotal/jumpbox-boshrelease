@@ -3,6 +3,13 @@ name: jumpbox
 packages:
 - jumpbox
 - golang
+- java
+- docker
+- node
+- maven
+- concourse
+- ruby
+- bosh
 
 templates:
   bin/jumpbox_ctl: bin/jumpbox_ctl

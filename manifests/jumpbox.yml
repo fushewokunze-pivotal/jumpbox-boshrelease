@@ -1,0 +1,42 @@
+name: jumpbox
+director_uuid: a30639a7-add5-43c6-a5b9-fa9c99728267
+releases:
+- name: jumpbox
+  version: 1
+
+stemcells:
+- alias: trusty
+  os: ubuntu-trusty
+  version: latest
+
+instance_groups:
+- name: jumpbox
+  azs: [az1]
+  instances: 1
+  lifecycle: service
+  jobs:
+  - name: jumpbox
+    release: jumpbox
+    consumes: {}
+    provides: {}
+  vm_type: small
+  persistent_disk: 10240
+  stemcell: trusty
+  networks: [{name: services, static_ips: [10.1.1.191]}]
+  #networks: [{name: services, default: [dns, gateway]}]
+  properties:
+    jumpbox:
+      hostname: my-jumpbox
+      users:
+      - name: dev
+        shell: /bin/bash
+    env:
+      bosh:
+        password: "$6$0c5262373f658468$Wrw4wq08kL8RIrkI1sh6MVmZTqQPd5y2Abe8wjmTYsdYvVjaEHuRcAb1NaPUHqlZaypzPmH2VtQlTD9eqq1p91"
+
+update:
+  canaries: 1
+  canary_watch_time: 1000-30000
+  max_in_flight: 1
+  update_watch_time: 1000-30000
+

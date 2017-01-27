@@ -14,9 +14,13 @@ umask 002
 #####################################################  env vars you get for free
 
 export GOPATH=${HOME}/go
-export PATH=/var/vcap/packages/jumpbox/bin:$PATH:/var/vcap/bosh/bin:/var/vcap/packages/golang/bin:${GOPATH}/bin
+export PATH=/var/vcap/packages/jumpbox/bin:$PATH:/var/vcap/bosh/bin:/var/vcap/packages/golang/bin:${GOPATH}/bin:/var/vcap/packages/docker/bin:/var/vcap/packages/java/jdk/bin
+export PATH=$PATH:/var/vcap/packages/java/bin:/var/vcap/packages/maven/bin:/var/vcap/packages/node/bin:/var/vcap/packages/concourse/bin
+export PATH=$PATH:/var/vcap/packages/concourse/bin:/var/vcap/packages/ruby/bin:/var/vcap/packages/bosh/bin
 export LD_LIBRARY_PATH=/var/vcap/packages/jumpbox/lib
 export MANPATH=/usr/share/man:/var/vcap/packages/jumpbox/share/man:/var/vcap/packages/jumpbox/man
+
+export JAVA_HOME=/var/vcap/packages/java/jdk
 
 ################################################################################
 #######################################################  one-time per-user setup

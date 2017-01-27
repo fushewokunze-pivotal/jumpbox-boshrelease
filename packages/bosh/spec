@@ -1,0 +1,8 @@
+---
+name: bosh
+
+dependencies: []
+
+files:
+- bosh/bosh-cli-0.0.147-linux-amd64
+- bosh/bosh_cli-1.2809.0-linux-x86_64.tar.gz

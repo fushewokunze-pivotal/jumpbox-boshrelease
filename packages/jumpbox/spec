@@ -45,3 +45,8 @@ files:
     # zip
   - jumpbox/zip30.tar.gz
   - jumpbox/unzip60.tar.gz
+
+   # docker
+  #- jumpbox/docker-engine_1.13.0-0~ubuntu-trusty_amd64.deb
+  #- jumpbox/libltdl7_2.4.2-1.7ubuntu1_amd64.deb
+  #- jumpbox/libsystemd-journal0_204-5ubuntu20_amd64.deb

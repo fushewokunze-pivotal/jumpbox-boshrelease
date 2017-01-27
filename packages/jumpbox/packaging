@@ -122,6 +122,15 @@ n=$((n + 1))
       install) &
 n=$((n + 1))
 
+# DOCKER
+# https://github.com/docker/docker/releases
+# https://github.com/docker/docker/archive/v1.12.4-rc1.tar.gz
+#(dpkg -i jumpbox/libltdl7_2.4.2-1.7ubuntu1_amd64.deb 
+# dpkg -i jumpbox/libsystemd-journal0_204-5ubuntu20_amd64.deb 
+# dpkg -i jumpbox/docker-engine_1.13.0-0~ubuntu-trusty_amd64.deb ) &
+#n=$((n + 1))
+
+
 # UNZIP
 # http://www.linuxfromscratch.org/blfs/view/svn/general/unzip.html
 # http://downloads.sourceforge.net/infozip/unzip60.tar.gz
@@ -143,3 +152,11 @@ done
 
 cp jumpbox/vimrc     ${BOSH_INSTALL_TARGET}/share/vim/vimrc
 cp jumpbox/tmux.conf ${BOSH_INSTALL_TARGET}/etc/tmux.conf
+
+#apt get update
+#apt-get install libltdl7
+#apt-get install libsystemd-journal0
+
+#curl -J -L -O https://apt.dockerproject.org/repo/pool/main/d/docker-engine/docker-engine_1.13.0-0~ubuntu-trusty_amd64.deb
+#dpkg -i docker-engine_1.13.0-0~ubuntu-trusty_amd64.deb
+

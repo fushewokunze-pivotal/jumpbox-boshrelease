@@ -1,32 +1,64 @@
 ---
 packages:
-- name: jumpbox
-  version: 75e8d98e3e75c8147fa8e8a9b293b3715a667ca0
-  fingerprint: 75e8d98e3e75c8147fa8e8a9b293b3715a667ca0
-  sha1: 37c552d57970a6a858a6a0a4bd2b6b81ac05891d
-  dependencies:
-  - ruby-2.1.6
-  - sqlite
-- name: ruby-2.1.6
-  version: fcc91ffcd6664719c89f259e635cb13a8f8c494f
-  fingerprint: fcc91ffcd6664719c89f259e635cb13a8f8c494f
-  sha1: 9edae53ccb14349b2d7e7aab8d85619d52801a24
+- name: bosh
+  version: 6d20827576d77e5c162abfa29428bc66a2267745
+  fingerprint: 6d20827576d77e5c162abfa29428bc66a2267745
+  sha1: 3722beb10ff732e5110de77e2b7b08cb1e5660de
   dependencies: []
-- name: sqlite
-  version: 1d78c1850cf24af00eb38ba9696a50a74529b905
-  fingerprint: 1d78c1850cf24af00eb38ba9696a50a74529b905
-  sha1: 5fbbfc42cc373d028aea2a5eae958edd2a35be3e
+- name: concourse
+  version: 9a8727a14b67de8d9591dad607c43d5214871b02
+  fingerprint: 9a8727a14b67de8d9591dad607c43d5214871b02
+  sha1: 272111a0218dc0c276e5af1b3b3ac1af81fe1160
+  dependencies: []
+- name: node
+  version: a763d1461eec1e18719969d07ce2aae9b58c7f19
+  fingerprint: a763d1461eec1e18719969d07ce2aae9b58c7f19
+  sha1: 1cb2313643950aa2325b53b81f76f5bd1c6fe5a2
+  dependencies: []
+- name: java
+  version: 79625666be07f903ad3627d29c89bd69584b775a
+  fingerprint: 79625666be07f903ad3627d29c89bd69584b775a
+  sha1: b64bed3e7076669c5617b5072a1845a0fde382eb
+  dependencies: []
+- name: docker
+  version: d338074fe00f12d092af91e13ba3f4db14eb687c
+  fingerprint: d338074fe00f12d092af91e13ba3f4db14eb687c
+  sha1: 68fee26373e4d93777923054cdd3e7f671ed9d17
+  dependencies: []
+- name: jumpbox
+  version: bb5cc9223826083514af6d668fdbb3bf0456de43
+  fingerprint: bb5cc9223826083514af6d668fdbb3bf0456de43
+  sha1: 025ce648f5eb14529ed244bbc13e15bbd672ed91
+  dependencies: []
+- name: maven
+  version: 7d81a28d0afbf033fbc64574c1d05cb40be60b8b
+  fingerprint: 7d81a28d0afbf033fbc64574c1d05cb40be60b8b
+  sha1: 52c66dc969646879b4b4be6d21af8c9749081942
+  dependencies: []
+- name: golang
+  version: 7bddc02ea4a7cc8f325253cea9dbe01ab6ea8129
+  fingerprint: 7bddc02ea4a7cc8f325253cea9dbe01ab6ea8129
+  sha1: 8a38a65a4115ebcb8a9e5d931b2355dd91481ded
+  dependencies: []
+- name: ruby
+  version: c2703b9a7f46f6960204f4b85720b23ec6366684
+  fingerprint: c2703b9a7f46f6960204f4b85720b23ec6366684
+  sha1: 4f65bc1d0b278b0795f62817ca4ede8bf7ba95f5
   dependencies: []
 jobs:
+- name: acceptance-tests
+  version: a625898823e6aba73804bb9b617f7d2d338efc1f
+  fingerprint: a625898823e6aba73804bb9b617f7d2d338efc1f
+  sha1: ea4ea3a222a13f31c8501783ed28d700512884e0
 - name: jumpbox
-  version: 325d3a77177576950c75553a7fc2c73a01d4eaf1
-  fingerprint: 325d3a77177576950c75553a7fc2c73a01d4eaf1
-  sha1: 8afbdaf3a5a99b393774b2b6486f872419e2a9c6
+  version: 3bff976433623f2cdde59100f0d6ebe48b22c7f5
+  fingerprint: 3bff976433623f2cdde59100f0d6ebe48b22c7f5
+  sha1: a92e138725ef61620e7bf0c0aa01394307dee36d
 license:
   version: a00ab0d4170cb74ed8f464700c229556099d14b8
   fingerprint: a00ab0d4170cb74ed8f464700c229556099d14b8
   sha1: 793c69b8e755bd63916a9c9ac99bb02d74764c3b
-commit_hash: dc29cd9c
+commit_hash: 5d11595b
 uncommitted_changes: true
 name: jumpbox
 version: '1'
