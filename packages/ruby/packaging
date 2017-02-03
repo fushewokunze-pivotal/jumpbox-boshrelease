@@ -58,7 +58,6 @@ if [[ $? != 0 ]] ; then
   exit 1
 fi
 
-# Install Bundler package
-echo "Installing Bundler ${BUNDLER_VERSION}..."
-${BOSH_INSTALL_TARGET}/bin/gem install ${BOSH_COMPILE_TARGET}/ruby/bundler-${BUNDLER_VERSION}.gem --no-ri --no-rdoc
-
+# Install uaac package
+echo "Installing uaac cf-uaac-3.3.0.gem..."
+${BOSH_INSTALL_TARGET}/bin/gem install ${BOSH_COMPILE_TARGET}/ruby/bundler-${BUNDLER_VERSION}.gem --local --no-ri --no-rdoc

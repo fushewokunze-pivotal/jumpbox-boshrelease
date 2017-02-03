@@ -128,9 +128,9 @@ jumpbox/tmux.conf:
   sha: 0c066b2a9cca4287d9e9cf4ff3fd76badf8a8bab
   size: 2034
 jumpbox/setup:
-  object_id: b9de504b-c5fd-4a2b-b45a-008e69471bd3
-  sha: a1c39a64b40137e8a638c5f94c8337b6c751034f
-  size: 486
+  object_id: e710b5eb-bd7d-4330-9fb7-f448eecbe7ed
+  sha: 7d8a5b640ee4611e4b70f89bf65138538e23c606
+  size: 490
 jumpbox/bins/cf:
   object_id: 5b954668-9572-4ff2-96e6-a4178951a075
   sha: 1e5ac677464a1ef554f777f71e47f72053d57d1f
@@ -211,3 +211,15 @@ inetutils/inetutils-1.7.tar.gz:
   object_id: ffb72031-b27f-4fdb-b9ee-83084a8cb452
   sha: d5fdee9855a06663ca7c0a8150c09439ef520206
   size: 1905523
+bosh/cf-uaac-3.3.0.gem:
+  object_id: 53085bc3-fe1f-4dc2-8c3f-bea294af1ab1
+  sha: 86b1f0834755f34b2651e87a39a53d736f65c963
+  size: 135680
+ruby/cf-uaac-3.3.0.gem:
+  object_id: 4e00ed2f-16e9-43fc-aed5-4808082bf8ae
+  sha: 86b1f0834755f34b2651e87a39a53d736f65c963
+  size: 135680
+ruby/uaac-3.3.0.gem/cf-uaac-3.3.0.gem:
+  object_id: d7ad860b-66f1-424e-a3dd-5c4d692093f3
+  sha: 86b1f0834755f34b2651e87a39a53d736f65c963
+  size: 135680

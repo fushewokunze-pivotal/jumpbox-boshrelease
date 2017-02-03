@@ -2,7 +2,7 @@ name: jumpbox
 director_uuid: a30639a7-add5-43c6-a5b9-fa9c99728267
 releases:
 - name: jumpbox
-  version: 1
+  version: 2+dev.2
 
 stemcells:
 - alias: trusty
@@ -19,6 +19,11 @@ instance_groups:
     release: jumpbox
     consumes: {}
     provides: {}
+  - name: docker
+    release: jumpbox
+    consumes: {}
+    provides: {}
+  
   vm_type: small
   persistent_disk: 10240
   stemcell: trusty
@@ -30,9 +35,16 @@ instance_groups:
       users:
       - name: dev
         shell: /bin/bash
-    env:
-      bosh:
-        password: "$6$0c5262373f658468$Wrw4wq08kL8RIrkI1sh6MVmZTqQPd5y2Abe8wjmTYsdYvVjaEHuRcAb1NaPUHqlZaypzPmH2VtQlTD9eqq1p91"
+    docker:
+      insecure_registries:
+      - 10.1.1.102:5000
+    
+  env:
+    bosh:
+      password: "$6$4gDD3aV0rdqlrKC$2axHCxGKIObs6tAmMTqYCspcdvQXh3JJcvWOY2WGb4SrdXtnCyNaWlrf3WEqvYR2MYizEGp3kMmbpwBC6jsHt0"
+    http_proxy: http://192.168.1.79:8080
+    https_proxy: https://192.168.1.79:8080
+    no_proxy: #List of comma-separated hosts that Docker should skip connecting to the proxy"
 
 update:
   canaries: 1

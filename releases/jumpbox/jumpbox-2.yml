@@ -1,0 +1,73 @@
+---
+packages:
+- name: bosh
+  version: 6d20827576d77e5c162abfa29428bc66a2267745
+  fingerprint: 6d20827576d77e5c162abfa29428bc66a2267745
+  sha1: 3722beb10ff732e5110de77e2b7b08cb1e5660de
+  dependencies: []
+- name: concourse
+  version: 9a8727a14b67de8d9591dad607c43d5214871b02
+  fingerprint: 9a8727a14b67de8d9591dad607c43d5214871b02
+  sha1: 272111a0218dc0c276e5af1b3b3ac1af81fe1160
+  dependencies: []
+- name: node
+  version: a763d1461eec1e18719969d07ce2aae9b58c7f19
+  fingerprint: a763d1461eec1e18719969d07ce2aae9b58c7f19
+  sha1: 1cb2313643950aa2325b53b81f76f5bd1c6fe5a2
+  dependencies: []
+- name: java
+  version: 79625666be07f903ad3627d29c89bd69584b775a
+  fingerprint: 79625666be07f903ad3627d29c89bd69584b775a
+  sha1: b64bed3e7076669c5617b5072a1845a0fde382eb
+  dependencies: []
+- name: docker
+  version: d338074fe00f12d092af91e13ba3f4db14eb687c
+  fingerprint: d338074fe00f12d092af91e13ba3f4db14eb687c
+  sha1: 68fee26373e4d93777923054cdd3e7f671ed9d17
+  dependencies: []
+- name: jumpbox
+  version: bb5cc9223826083514af6d668fdbb3bf0456de43
+  fingerprint: bb5cc9223826083514af6d668fdbb3bf0456de43
+  sha1: 025ce648f5eb14529ed244bbc13e15bbd672ed91
+  dependencies: []
+- name: bosh-helpers
+  version: 2e315fb7cbca15e9be6f8f176cc5d3268b89d4ef
+  fingerprint: 2e315fb7cbca15e9be6f8f176cc5d3268b89d4ef
+  sha1: 22ebde9a08a87bbb04748d48bf3096e038a53069
+  dependencies: []
+- name: maven
+  version: 7d81a28d0afbf033fbc64574c1d05cb40be60b8b
+  fingerprint: 7d81a28d0afbf033fbc64574c1d05cb40be60b8b
+  sha1: 52c66dc969646879b4b4be6d21af8c9749081942
+  dependencies: []
+- name: golang
+  version: 7bddc02ea4a7cc8f325253cea9dbe01ab6ea8129
+  fingerprint: 7bddc02ea4a7cc8f325253cea9dbe01ab6ea8129
+  sha1: 8a38a65a4115ebcb8a9e5d931b2355dd91481ded
+  dependencies: []
+- name: ruby
+  version: 42f95d5d90dee86f2a3ad17c4133cb1f817a121f
+  fingerprint: 42f95d5d90dee86f2a3ad17c4133cb1f817a121f
+  sha1: f152c714f777dfffb3e37149be615272ec43277f
+  dependencies: []
+jobs:
+- name: acceptance-tests
+  version: a625898823e6aba73804bb9b617f7d2d338efc1f
+  fingerprint: a625898823e6aba73804bb9b617f7d2d338efc1f
+  sha1: ea4ea3a222a13f31c8501783ed28d700512884e0
+- name: docker
+  version: 30f6a2f83da1a34d5765085078e018324d133f3e
+  fingerprint: 30f6a2f83da1a34d5765085078e018324d133f3e
+  sha1: 41e4d805adf1e6a450184647ac47367d9e282401
+- name: jumpbox
+  version: 3bff976433623f2cdde59100f0d6ebe48b22c7f5
+  fingerprint: 3bff976433623f2cdde59100f0d6ebe48b22c7f5
+  sha1: a92e138725ef61620e7bf0c0aa01394307dee36d
+license:
+  version: a00ab0d4170cb74ed8f464700c229556099d14b8
+  fingerprint: a00ab0d4170cb74ed8f464700c229556099d14b8
+  sha1: 793c69b8e755bd63916a9c9ac99bb02d74764c3b
+commit_hash: b1468676
+uncommitted_changes: true
+name: jumpbox
+version: '2'

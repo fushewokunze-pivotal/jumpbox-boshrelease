@@ -2,4 +2,6 @@
 builds:
   2a603365-dc24-440e-9245-ba13e1884bd4:
     version: '1'
+  802fd7dc-e2f5-4d9c-829b-310f884dabbe:
+    version: '2'
 format-version: '2'

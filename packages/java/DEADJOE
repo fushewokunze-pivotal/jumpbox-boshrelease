@@ -1,0 +1,46 @@
+
+*** These modified files were found in JOE when it aborted on Wed Feb  1 14:54:52 2017
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+10.1.1.96
+vmnet
+10.1.1.122
+https
+sys.butterflycluster.com
+broker.sys
+broker.sys
+https
+sys.butterflycluster.com
+VM Network
+
+*** File '(Unnamed)'
+buildpacks-ci
+buildpack
+oauth
+composer-github-oauth-token
+composer-github-oauth-token
+cf-edge-aws-environments
+detect-new-version-and-upload-artifacts
+buildpack-checksums
+buildpack-checksums-private-key
+ruby
+
+*** File '(Unnamed)'
+jumpbox_ctl
+jumpbox_ctl
+monit
+/jobs/jumpbox/templates/bin/watcher
+0~./jobs/jumpbox/templates/bin/watcher1~
+./jobs/jumpbox/templates/bin/watcher
+config/bashrc
+manifests/jumpbox.yml
+manifests/jumpbox.yml
+manifests/jumpbox.yml
+packaging
+
+*** File '* Startup Log *'
+Processing '/home/fadzi/.joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /home/fadzi/.joerc

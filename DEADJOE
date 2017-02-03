@@ -1,0 +1,184 @@
+
+*** These modified files were found in JOE when it aborted on Tue Jan 31 09:52:59 2017
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+10.1.1.96
+vmnet
+10.1.1.122
+https
+sys.butterflycluster.com
+broker.sys
+broker.sys
+https
+sys.butterflycluster.com
+VM Network
+
+*** File '(Unnamed)'
+buildpacks-ci
+buildpack
+oauth
+composer-github-oauth-token
+composer-github-oauth-token
+cf-edge-aws-environments
+detect-new-version-and-upload-artifacts
+buildpack-checksums
+buildpack-checksums-private-key
+ruby
+
+*** File '(Unnamed)'
+bashrc
+packaging
+setup
+manifests/jumpbox.yml
+./jobs/jumpbox/templates/bin/watcher
+monit
+jumpbox_ctl
+jumpbox_ctl
+monit
+/jobs/jumpbox/templates/bin/watcher
+jobs/jumpbox/templates/bin/watcher
+
+*** File '* Startup Log *'
+Processing '/home/fadzi/.joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /home/fadzi/.joerc
+
+*** These modified files were found in JOE when it aborted on Tue Jan 31 10:00:19 2017
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+10.1.1.96
+vmnet
+10.1.1.122
+https
+sys.butterflycluster.com
+broker.sys
+broker.sys
+https
+sys.butterflycluster.com
+VM Network
+
+*** File '(Unnamed)'
+buildpacks-ci
+buildpack
+oauth
+composer-github-oauth-token
+composer-github-oauth-token
+cf-edge-aws-environments
+detect-new-version-and-upload-artifacts
+buildpack-checksums
+buildpack-checksums-private-key
+ruby
+
+*** File '(Unnamed)'
+manifests/jumpbox.yml
+bashrc
+packaging
+setup
+manifests/jumpbox.yml
+./jobs/jumpbox/templates/bin/watcher
+monit
+jumpbox_ctl
+jumpbox_ctl
+monit
+./jobs/jumpbox/templates/config/bashrc
+
+*** File '* Startup Log *'
+Processing '/home/fadzi/.joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /home/fadzi/.joerc
+
+*** These modified files were found in JOE when it aborted on Wed Feb  1 15:13:03 2017
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+10.1.1.96
+vmnet
+10.1.1.122
+https
+sys.butterflycluster.com
+broker.sys
+broker.sys
+https
+sys.butterflycluster.com
+VM Network
+
+*** File '(Unnamed)'
+buildpacks-ci
+buildpack
+oauth
+composer-github-oauth-token
+composer-github-oauth-token
+cf-edge-aws-environments
+detect-new-version-and-upload-artifacts
+buildpack-checksums
+buildpack-checksums-private-key
+ruby
+
+*** File '(Unnamed)'
+monit
+/jobs/jumpbox/templates/bin/watcher
+0~./jobs/jumpbox/templates/bin/watcher1~
+./jobs/jumpbox/templates/bin/watcher
+config/bashrc
+manifests/jumpbox.yml
+manifests/jumpbox.yml
+manifests/jumpbox.yml
+packaging
+packages/maven/packaging
+packages/maven/spec
+
+*** File '* Startup Log *'
+Processing '/home/fadzi/.joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /home/fadzi/.joerc
+
+*** These modified files were found in JOE when it aborted on Wed Feb  1 15:17:07 2017
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+10.1.1.96
+vmnet
+10.1.1.122
+https
+sys.butterflycluster.com
+broker.sys
+broker.sys
+https
+sys.butterflycluster.com
+VM Network
+
+*** File '(Unnamed)'
+buildpacks-ci
+buildpack
+oauth
+composer-github-oauth-token
+composer-github-oauth-token
+cf-edge-aws-environments
+detect-new-version-and-upload-artifacts
+buildpack-checksums
+buildpack-checksums-private-key
+ruby
+
+*** File '(Unnamed)'
+monit
+/jobs/jumpbox/templates/bin/watcher
+0~./jobs/jumpbox/templates/bin/watcher1~
+./jobs/jumpbox/templates/bin/watcher
+config/bashrc
+manifests/jumpbox.yml
+manifests/jumpbox.yml
+manifests/jumpbox.yml
+packaging
+packages/maven/packaging
+manifests/jumpbox.yml
+
+*** File '* Startup Log *'
+Processing '/home/fadzi/.joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /home/fadzi/.joerc
