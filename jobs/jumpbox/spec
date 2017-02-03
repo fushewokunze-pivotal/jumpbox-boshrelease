@@ -9,7 +9,7 @@ packages:
 - maven
 - concourse
 - ruby
-- bosh
+#- bosh
 
 templates:
   bin/jumpbox_ctl: bin/jumpbox_ctl
